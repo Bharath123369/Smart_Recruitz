@@ -1,0 +1,4 @@
+timestamp,interview_id,candidate_id,overall_score,readiness_level,talent_pool_action,recommendation
+2026-03-12T17:32:53.757971,abc123,134562,88.75,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.
+2026-03-13T01:21:01.790925,123456,123456,98.0,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.
+2026-03-13T08:46:53.142727,transcript-03,abc123,98.0,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.

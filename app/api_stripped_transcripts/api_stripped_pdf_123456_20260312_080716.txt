@@ -1,0 +1,25 @@
+**Mock Interview Transcript: Senior Backend Engineer**
+**Interviewer:** Hi Alex, thanks for joining us today. To start, could you please introduce yourself and tell us a
+bit about your background?
+**Candidate:** Certainly. My name is Alex Chen, and you can reach me at [STRIPPED_EMAIL] or
+by phone at ([STRIPPED_PHONE]. I'm a Senior Backend Engineer with over 8 years of experience building
+scalable, high-performance distributed systems, primarily in Python and Go. My expertise lies in
+microservices architecture, API design, and database optimization, with a strong focus on system reliability
+and data integrity.
+**Interviewer:** Great, Alex. Can you describe a particularly challenging backend project you've led or
+significantly contributed to, and walk us through your approach to solving it?
+**Candidate:** One challenging project involved re-architecting a legacy monolithic payment processing
+system into a series of microservices. The main hurdle was ensuring atomicity and idempotency across
+multiple services while dealing with high transaction volumes. We adopted a saga pattern with Kafka for
+event-driven communication and implemented robust retry mechanisms with circuit breakers, which
+significantly improved fault tolerance and reduced latency.
+**Interviewer:** That's a solid approach. Given your experience, what's your take on eventual consistency in
+distributed systems, and when do you typically advocate for it versus strong consistency?
+**Candidate:** Eventual consistency is a pragmatic choice for systems where availability and partition
+tolerance are prioritized over immediate data consistency, such as social media feeds or large-scale IoT data
+ingestion. I advocate for it when read-heavy workloads benefit from lower latency and higher throughput, and
+where temporary data staleness is acceptable. For critical operations like financial transactions, however,
+strong consistency models are non-negotiable, often achieved through distributed transactions or consensus
+protocols like Raft.
+**Interviewer:** Excellent point. I'd like to dive a bit deeper into your experience with...
+*(Call abruptly disconnects)*

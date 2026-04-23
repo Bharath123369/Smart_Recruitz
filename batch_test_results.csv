@@ -1,0 +1,6 @@
+Filename,Status,Overall Score,Readiness Level,Action,Recommendation,Errors,PII Stripped Successfully
+transcript_01.pdf,PARTIAL,91.25,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.,Insufficient Q&A pairs: 4. Minimum 5 required.,TRUE
+transcript_02.pdf,SUCCESS,95,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.,,TRUE
+transcript_03.pdf,SUCCESS,87.5,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.,,TRUE
+transcript_04.pdf,SUCCESS,96.95,HIGH_READY,INSERT,Candidate is highly recommended for the talent pool.,,TRUE
+transcript_05.pdf,SUCCESS,17.5,NOT_READY,REJECT,Candidate does not meet the minimum requirements at this time.,,TRUE
